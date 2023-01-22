@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class SnyApplication {
-	@GetMapping
+	@GetMapping("/run")
 	public String first(){
 		return "Deployed";
 	}
