@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SnyApplication {
 	@GetMapping("/run")
 	public String first(){
-		return "Deployed";
+		return "Deployed it";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SnyApplication.class, args);
