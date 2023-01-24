@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://sny-server.database.windows.net:1433
+    url: jdbc:sqlserver://sny-server.database.windows.net:1433;databaseName=sny-database
     username: sny
     password: Anand@123
   jpa:
@@ -9,7 +9,6 @@ spring:
       ddl-auto: update
       dialect : org.hibernate.dialect.SQLServer2012Dialect
 
-server:
-  port: 9191
+
 
 

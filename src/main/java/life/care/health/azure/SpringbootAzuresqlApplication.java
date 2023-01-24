@@ -1,4 +1,4 @@
-package com.javatechie.azure;
+package life.care.health.azure;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

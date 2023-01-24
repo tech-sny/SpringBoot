@@ -1,4 +1,4 @@
-package com.javatechie.azure;
+package life.care.health.azure;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

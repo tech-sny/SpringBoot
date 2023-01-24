@@ -1,8 +1,8 @@
-package com.example.Spring.Repository;
+package life.care.health.example.Spring.Repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.example.Spring.Entity.Demo;
+import life.care.health.example.Spring.Entity.Demo;
 
 public interface DemoRepository extends CrudRepository<Demo,Long>{
     

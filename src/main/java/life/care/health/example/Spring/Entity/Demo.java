@@ -1,4 +1,4 @@
-package com.example.Spring.Entity;
+package life.care.health.example.Spring.Entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
