@@ -10,5 +10,14 @@ spring:
       dialect : org.hibernate.dialect.SQLServer2012Dialect
 
 
+azure:
+  storage:
+    
+    account-name: filestora
+    account-key: sp=r&st=2023-01-28T20:28:41Z&se=2023-01-29T04:28:41Z&spr=https&sv=2021-06-08&sr=c&sig=z7kCGKbyaPPYSXYwoUHhHBoYYtW1M3PT%2Bgobq5m6%2BZ4%3D
+    blob-endpoint: https://filestora.blob.core.windows.net
+file:
+  upload-dir: ./image
+
 
 
