@@ -16,7 +16,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "about")
+@Table(name = "education")
 public class Education {
     @Id
     @GeneratedValue
